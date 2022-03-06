@@ -4,8 +4,8 @@ logging:
       apache:
         coyote:
 #          http11: debug
-
 spring:
-  jpa:
-    hibernate:
-#      ddl-auto: create
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
